@@ -88,7 +88,7 @@ export default function App() {
           <Pressable style={styles.forgottenPassword} onPress={forgottenPassword}>Esqueci minha senha</Pressable>
           <Pressable style={styles.login} onPress={handleLogin} ><Text style={styles.textLogin} >Entrar</Text></Pressable>
           <Text style={styles.footer} >Não tem uma conta?<Pressable onPress={changeAccount}><Text style={styles.register}>Cadastre-se</Text></Pressable></Text>
-          <Text style={styles.creator}>Criado por Jovêncio Sigma da Bahia</Text>
+          <Text style={styles.creator}>Criado por Gabriel Marinho</Text>
         </View>
     </SafeAreaView>
   )
